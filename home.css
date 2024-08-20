@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+header{
+    border-bottom: 1px solid black;
+}
+
+.main-head{
+    display: flex;
+}
+/* logo contents     */
+
+
+.logo-contents{
+    padding-right: 80px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100px;
+   column-gap: 10px;
+  
+   
+}
+.nav-portion1{
+    color: #545756;
+    white-space: nowrap;
+    font-weight: bold;
+    padding-left: 50px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    width:40px;
+    height: 20px;
+}
+.nav-portion1:hover{
+    color:#006241;
+    cursor: pointer;
+}
+
+img{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+/* location-sign-join */
+.location-sign-join{
+    padding-right: 30px;
+    justify-content: flex-end;
+    display: flex;
+    column-gap: 85px;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.location-text{
+    padding-top: 40px;
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.sign-join{
+    display: flex;
+    padding-top: 30px;
+    column-gap: 15px;
+    
+}
+.sign-button{
+    
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    text-decoration: none;
+   
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sign-button:hover{
+    color: #fff;
+    background: #000000;
+}
+.join-button{
+    cursor: pointer;
+    padding: 6px 15px;
+    border-color: black;
+    background-color: black;
+    color: #fff;
+    border-radius:15px ;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.join-button:hover{
+    color:black;
+    background: #fff;
+}
+.find-store:hover{
+    color:#006241;
+    cursor: pointer;
+}
+
+/* features begins here */
+/* features portion1 begins here */
+
+
+
+
+/* features portion1 image begins here */
+
+.features{
+    display: flex;
+    width: 100%;
+    height:400px;
+    margin-top: 30px;
+}
+.features-img-portion{
+    width: 50%;
+    height: 400px;
+    background:url(img/137-93763.jpg);
+   
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   
+    
+   
+}
+
+/* features-text-portion1 begins here */
+
+
+.features-text-portion{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    background-color:#006241;
+    color: #fff;
+}
+.features-text-portion-center-div{
+    text-align: center;
+    margin:70px ;
+    display:flex ;
+    flex-direction: column;
+    line-height: 1.75;
+   
+}
+.join-starbucks{
+    font-size :19px;
+    font-weight: 400;
+    height :99.75px;
+    letter-spacing :-0.16px;
+    line-height :33.25px;
+    text-align :center;
+    
+}
+.features-text-portion-paragraph{
+    margin-top: 30px;
+}
+.join-now2{
+    color: #fff;
+    margin-top: 30px;
+    background: none;
+    border-color: #fff;
+    padding: 6px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+/* button section */
+#button2{
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}
+#button3{
+    color: black;
+    border:1px solid black;
+    margin-top: 60px;
+    cursor: pointer;
+}
+#button2:hover{
+    opacity: 0.8;
+    color:black;
+}
+#button3:hover{
+    opacity: 0.8;
+    color:#fff;
+}
+
+
+/* feature second section begins here */
+.features2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+.features2-text-portion{
+width: 50%;
+height: 600px;
+background: #A3029A;
+color: #fff;
+}
+.features2-text-portion-center-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -20px;
+}
+.features2-text-portion-paragraph{
+    margin-top: 30px;
+}
+
+.feature2-paragraph{
+    
+    font-size :24px;
+font-weight :400;
+height :72px;
+letter-spacing: -0.16px;
+line-height :36px;
+max-width :1107.69px;
+text-align: center;
+text-size-adjust: 100%;
+
+}
+.features2-text-portion-button{
+    margin-top: 20px;
+}
+
+.features2-img-portion{
+    width: 50%;
+    height: 600px;
+    background:url(img/137-92996.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* feature third section begins here */
+
+.feature3{
+    display: flex;
+    width: 100%;
+    height: 580px;
+    margin-top: 30px;
+}
+.image-section{
+    width: 50%;
+    height: 580px;
+    background: url(img/137-93741.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-section{
+   color: black;
+    width: 50%;
+    height: 580px;
+    background: #d6e342;
+    text-align: center;
+
+}
+.text-head{
+    margin-top: 180px;
+    font-size :50px;
+    font-weight :600;
+    height: auto;
+    letter-spacing :2px;
+    line-height: 60px;
+    max-width :2307.69px;
+    text-align :center;
+    text-size-adjust :100%;
+}
+.feature3-paragraph{
+    font-size :24px;
+    font-weight :400;
+    height :72px;
+    letter-spacing: -0.16px;
+    line-height :36px;
+    max-width :1107.69px;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-top: 30px;
+    
+}
+.send-gift-button{
+    margin-top: 30px;
+}
+
+
+
+/* feature four begins here */
+.feature4{
+   display: flex;
+    width: 100%;
+    height:400px;
+    margin-top: 30px;
+   
+
+}
+.text4-portion{
+    display: flex;
+    width: 50%;
+    height: 400px;
+    background: #97d8b1;
+    flex-direction: column;
+    text-align: center;
+}
+.feature4-image{
+    width:50%;
+    height: 400px;
+    background: url(img/137-92899.webp);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.text4-head{
+    margin-top: 100px;
+}
+.text4-paragraph{
+    margin-top: 30px;
+    font-size :19px;
+    font-weight: 400;
+    height :99.75px;
+    letter-spacing :-0.16px;
+    line-height :33.25px;
+    text-align :center;
+}
+.content-details{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.writings{
+   
+    letter-spacing :-0.16px;
+    margin-top: 70px;
+    line-height :33.25px;
+    
+}
+
+
+
+
+/* rooter */
+.rooter{
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height:420px;
+    background: #fff;
+    color: var(--colorTextBlackSoft);
+
+    justify-content: space-evenly;
+    
+}
+.about{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+    
+
+.careers{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}   
+.social-impact{
+padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.buisness{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.order{
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.head-dark{
+    color:  #626e6a;
+    font-weight: 500;
+}
+.head-dark:hover{
+   
+   color:#000000 ;
+    cursor: pointer;
+}
+
+
+
+/* footer end text and social media icons */
+
+.footer-end
+{
+    
+    width: 100%;
+    height: 550px;
+}
+.social-media{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 100%;
+    height: 100px;
+    column-gap: 10px;
+}
+.footer-end-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-left: 40px;
+    
+}
+.starbucks-2024{
+    color: rgb(172, 170, 170);
+    font-size: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+}
+.social-media div i{
+    cursor: pointer;
+}
